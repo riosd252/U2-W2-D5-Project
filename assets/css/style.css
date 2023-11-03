@@ -10,3 +10,11 @@ footer {
 .custom {
   font-size: 0.8rem;
 }
+
+.main-container {
+  margin-top: 10rem;
+}
+
+h1 {
+  font-size: 5rem;
+}
