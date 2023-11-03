@@ -1,0 +1,12 @@
+body {
+  box-sizing: border-box;
+  color: white;
+}
+
+footer {
+  margin-top: 10rem;
+}
+
+.custom {
+  font-size: 0.8rem;
+}
