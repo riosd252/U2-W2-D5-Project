@@ -1,5 +1,4 @@
 body {
-  box-sizing: border-box;
   color: white;
 }
 
@@ -9,4 +8,33 @@ footer {
 
 .custom {
   font-size: 0.8rem;
+}
+
+.mw-mc {
+  max-width: max-content;
+}
+
+.br-custom {
+  border-radius: 3px;
+}
+
+.br-none {
+  border-radius: 0;
+}
+
+.custom-width {
+  width: 30%;
+}
+
+.bg-black {
+  background-color: black;
+  color: white;
+}
+
+.ls-custom {
+  letter-spacing: 0.2rem;
+}
+
+#preview,
+#next-episode {
 }

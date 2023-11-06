@@ -16,5 +16,96 @@
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
-  <body class="bg-dark"></body>
+  <body class="bg-dark">
+    <header>
+      <div class="container-fluid">
+        <img
+          src="./assets/avatars_and_logo/netflix_logo.png"
+          alt=""
+          style="width: 140px"
+        />
+      </div>
+    </header>
+    <main>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-4"></div>
+          <div class="col-8">
+            <div class="container">
+              <h1 class="border-bottom border-secondary pb-2 w-75">
+                Edit Profile
+              </h1>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-2 pt-4">
+                  <img
+                    src="./assets/avatars_and_logo/avatar.png"
+                    alt=""
+                    class="w-100"
+                  />
+                </div>
+                <div class="col-6">
+                  <div
+                    class="container-fluid py-4 border-bottom border-secondary"
+                  >
+                    <p class="ps-3 py-1 bg-secondary fs-2">Strive Student</p>
+                    <label class="d-block mt-4 fs-2 pb-4" for="languages"
+                      >Language:</label
+                    >
+                    <select
+                      class="form-select br-none bg-black fs-5 fw-bold custom-width"
+                      name="languages"
+                      id="languages"
+                    >
+                      <option value="English">English</option>
+                      <option value="Spanish">Spanish</option>
+                      <option value="Italian">Italian</option>
+                      <option value="German">German</option>
+                    </select>
+                  </div>
+                  <div
+                    class="container-fluid border-bottom border-secondary pb-4 mb-5"
+                  >
+                    <p class="fs-2 mb-3 pt-4">Maturity Settings:</p>
+                    <p class="fs-4 px-2 py-1 bg-secondary mw-mc br-custom mb-3">
+                      ALL MATURITY RATINGS
+                    </p>
+                    <p class="fs-5">
+                      Show titles of
+                      <span class="fw-bold">all maturity ratings</span> for this
+                      profile.
+                    </p>
+                    <button
+                      type="button"
+                      class="btn btn-outline-secondary mt-2 fs-4 px-4 py-1 br-none ls-custom"
+                    >
+                      EDIT
+                    </button>
+                  </div>
+                  <div class="container-fluid">
+                    <p class="fs-2">Autoplay controls</p>
+                    <div>
+                      <input type="checkbox" id="next-episode" />
+                      <label class="fs-5" for="next-episode"
+                        >Autoplay next episode in a series on all
+                        devices.</label
+                      >
+                    </div>
+                    <div>
+                      <input type="checkbox" id="preview" />
+                      <label class="fs-5" for="preview"
+                        >Autoplay previews while browsing on all devices.</label
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
