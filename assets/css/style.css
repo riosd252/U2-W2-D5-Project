@@ -1,5 +1,6 @@
 body {
   color: white;
+  font-family: "Roboto", sans-serif;
 }
 
 footer {
@@ -22,19 +23,62 @@ footer {
   border-radius: 0;
 }
 
+.h1-cw {
+  width: 65%;
+}
+
 .custom-width {
   width: 30%;
 }
 
+.bg-custom-light {
+  background-color: #666666;
+}
+
+.bg-dull {
+  background-color: #333333;
+}
+
 .bg-black {
   background-color: black;
+  letter-spacing: 0.1rem;
   color: white;
 }
 
 .ls-custom {
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
 }
 
-#preview,
-#next-episode {
+.checkbox-container {
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 5px;
+  font-size: 22px;
+}
+
+label input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.checkmark:after {
+  content: "✓";
+  font-size: 1.7rem;
+  font-weight: 700;
+  position: absolute;
+  top: -6px;
+  left: 7px;
+  display: none;
+}
+
+.checkbox {
+  width: 0;
+  height: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  height: 33px;
+  width: 33px;
 }
