@@ -1,3 +1,5 @@
+/* GENERIC RULES */
+
 body {
   color: white;
   font-family: "Roboto", sans-serif;
@@ -5,14 +7,6 @@ body {
 
 footer {
   margin-top: 10rem;
-}
-
-.custom {
-  font-size: 0.8rem;
-}
-
-.mw-mc {
-  max-width: max-content;
 }
 
 .br-custom {
@@ -23,13 +17,29 @@ footer {
   border-radius: 0;
 }
 
-.h1-cw {
-  width: 65%;
+/* ANIMATIONS */
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
 }
 
-.custom-width {
-  width: 30%;
+/* CUSTOM FONT RULES */
+
+.custom {
+  font-size: 0.8rem;
 }
+
+.ls-custom {
+  letter-spacing: 0.1rem;
+}
+
+.ls-custom1 {
+  letter-spacing: 0.2rem;
+}
+
+/* CUSTOM BG PROPERTIES */
 
 .bg-custom-light {
   background-color: #666666;
@@ -45,9 +55,21 @@ footer {
   color: white;
 }
 
-.ls-custom {
-  letter-spacing: 0.1rem;
+/* CUSTOM WIDTHS*/
+
+.h1-cw {
+  width: 65%;
 }
+
+.custom-width {
+  width: 30%;
+}
+
+.mw-mc {
+  max-width: max-content;
+}
+
+/* CUSTOM CHECKBOXS */
 
 .checkbox-container {
   position: relative;
